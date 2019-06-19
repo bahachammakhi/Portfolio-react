@@ -1,5 +1,6 @@
 import React,{Component} from "react"
 import me from "../img/me.jpg"
+import TimeLine from "./TimeLine"
 class AboutMe extends Component{
     render(){
         return(
@@ -18,6 +19,7 @@ class AboutMe extends Component{
             <div class="progress ml-3 mr-3">
   <div class="progress-bar progress-bar-striped prog2 progress-bar-animated bg-danger " role="progressbar "  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
 </div>
+<div><TimeLine /></div>
             </div>
         )
     }
