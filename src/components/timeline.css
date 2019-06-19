@@ -117,3 +117,11 @@
   .timeline-body > p + p {
     margin-top: 5px;
   }
+  @media screen and (max-width: 800px) {
+    .pap{
+      margin-right: 20px;
+    }
+    .titlet{
+      font-size: 20px;
+    }
+  }

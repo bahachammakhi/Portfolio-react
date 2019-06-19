@@ -39,6 +39,7 @@ p{
 }
 .meimg2{
   opacity:0.6;
+  width: 300px;
 }
 .ml{
   margin-left: 120px;
@@ -63,20 +64,28 @@ opacity:0.7;
 }
 
 /* The navigation menu links */
-.sidenav a {
+.sidenav .ab {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 15px;
   color: #cacaca;
   display: block;
 }
-.sidenav a:hover{
+.sidenav .ab:hover{
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
   background-color: #0C0C0E;
   display: block;
   text-decoration: none;
+}
+.fab{
+  
+  color: black;
+}
+.fab:hover{
+  font-size: 50px;
+  color: white;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -93,6 +102,13 @@ opacity:0.7;
   width: 150px;
   margin-left : 35px;
 }
+.mobile-only{
+  display : none;
+
+}
+.logo{
+  width:120px;
+}
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -104,10 +120,18 @@ opacity:0.7;
   margin-left: 0px;
   
 }
+.mobile-only{
+  display: block;
+
+}
 .ml{
   margin-left: 5px;
 }
 .sidenav{
   width :0px;
 }
+.portfolio1{
+  margin-left: 70px;
 }
+}
+

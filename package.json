@@ -11,6 +11,7 @@
     "react-bootstrap": "^1.0.0-beta.9",
     "react-bootstrap-sidebar": "0.0.1",
     "react-dom": "^16.8.6",
+    "react-headroom": "^2.2.8",
     "react-scripts": "3.0.1",
     "reactstrap": "^8.0.0"
   },

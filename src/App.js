@@ -8,31 +8,21 @@ import "./bootstrap-4.3.1-dist/css/bootstrap.min.css"
 import port from "./img/port1.PNG"
 import cyj from "./img/cyj1.PNG"
 import me from "./img/me.jpg"
+import Navbar from './components/Navbar';
 class App extends React.Component{
-  constructor(props){
-    super(props)
-    this.toggleNavbar = this.toggleNavbar.bind(this);
-    this.state={
-      collapsed : true
-    }
-
-  }
-  toggleNavbar() {
-    this.setState({
-      collapsed: !this.state.collapsed
-    });
-  }
+  
   
   render(){
     
     return(
      <div className="wrapper">
-       <div ><SideNav collapsed={this.state.collapsed}/></div>
+       <div className="desktop-only" >  <SideNav /></div>
+       <div className="mobile-only"><Navbar /></div>
 
 <div className="content">
 <h3 className="header ml-3 mt-3 ml">Portfolio</h3>
                 <hr className="hr ml"/>
-                <div id="portfolio" className=" card-deck">
+                <div id="portfolio" className=" card-deck portfolio1">
                   <div className="col-sm-6">
                     <Portfolio 
                     title="Choose your job" 
@@ -41,7 +31,7 @@ class App extends React.Component{
                     timeUpdated="19/06/2019"
                     link=""
                     /></div>
-<div className="col-sm-6">
+<div className="col-sm-6 ">
   <Portfolio 
 title="Portfolio website" 
 prag="A portfolio-website Portfolio section,about section , contact section , footer,welcome page and some nice animations" 
