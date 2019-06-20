@@ -19,7 +19,7 @@ class App extends React.Component{
        <div className="desktop-only" >  <SideNav /></div>
        <div className="mobile-only"><Navbar /></div>
 
-<div className="content">
+<div className="content animated  slideInLeft slower ">
 <h3 className="header ml-3 mt-3 ml">Portfolio</h3>
                 <hr className="hr ml"/>
                 <div id="portfolio" className=" card-deck portfolio1">
