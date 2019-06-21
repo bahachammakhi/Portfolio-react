@@ -47,19 +47,19 @@ class Contact extends Component{
 <form action="https://formspree.io/bahachammakhi25@gmail.com" method="POST">
                 <div class="form-group ">
     <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+    <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com"/>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput1">Name</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John snow"/>
+    <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="John snow"/>
   </div>  
   <div class="form-group">
     <label for="exampleFormControlInput1">Subject</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Work"/>
+    <input type="text" class="form-control" id="exampleFormControlInput1" name="subject" placeholder="Work"/>
   </div>
   <div class="form-group">
     <label for="exampleFormControlTextarea1 ">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3"></textarea>
   </div>
                 <input type="submit" value="Send" className="btn btn-outline-danger btn-lg text-center mb-1" />
 </form>
