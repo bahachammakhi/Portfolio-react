@@ -8,7 +8,8 @@ import "./bootstrap-4.3.1-dist/css/bootstrap.min.css"
 import port from "./img/port1.PNG"
 import cyj from "./img/cyj1.PNG"
 import me from "./img/me.jpg"
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'
+import Contact from "./components/Contact"
 class App extends React.Component{
   
   
@@ -51,8 +52,8 @@ prag="A portfolio-website Portfolio section,about section , contact section , fo
                 <div className="ml" id="about">
                   <AboutMe />
                 </div>
-                <div id="contact">
-                
+                <div className="ml-5" id="contact">
+                <Contact />
                 </div>
 
   <div className="mt-3"><Footer /> </div>         
