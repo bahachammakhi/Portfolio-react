@@ -1,12 +1,41 @@
 import React from "react"
-import logo from "../img/Logo.PNG"
+import {Collapse} from "reactstrap"
 class Navbar extends React.Component{
+  constructor(){
+    super()
+    this.state  ={
+    prevScrollpos : window.pageYOffset,
+    visible : true
+    }
+   
+  }
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+  
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+  handleScroll = () => {
+
+    const {prevScrollpos} = this.state
+    const currentScrollPos = window.pageYOffset
+    const visible = prevScrollpos > currentScrollPos
+
+    this.setState({
+      prevScrollpos : currentScrollPos,
+      visible : visible
+    })
+  }
+  
+  
     render(){
+
         return(
    <div>
-     
-     <nav className="navbar navbar-expand navbar-dark dark">
- <img className="logo navbar-brand" src={logo} />
+     <Collapse isOpen={this.state.visible} >
+     <nav className="navbar navbar-expand navbar-dark navbar-baha fixed-top ">
+ <h6 className=" header1 mt-3">Baha chammakhi</h6>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -24,6 +53,7 @@ class Navbar extends React.Component{
     </ul>
   
 </nav>
+</Collapse>
  
    </div>
         )

@@ -1,14 +1,6 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import Modal from '@material-ui/core/Modal';
-import Button from '@material-ui/core/Button';
-import { width, height } from '@material-ui/system';
 import {Animated} from "react-animated-css";
-
-
-
-
 class SimpleModal extends React.Component {
   constructor(props){
     super(props)
@@ -29,11 +21,8 @@ handleClick = (link) =>{
   window.open(id);
 }
 render(){
-  
-
   return (
-    
-    <div  > 
+     <div> 
       <Modal
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
@@ -53,10 +42,7 @@ render(){
               <div className="text-center" >
                 <a  href={this.props.link} target="_blank" className="btn btn-outline-danger"   >Live Preview</a>
               </div>
-   
-         
-        
-        </div>
+   </div>
         </Animated>  
       </Modal>
     </div>

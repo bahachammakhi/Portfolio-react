@@ -8,7 +8,6 @@ import "./bootstrap-4.3.1-dist/css/bootstrap.min.css"
 import port from "./img/port1.PNG"
 import cyj from "./img/cyj1.PNG"
 import note from "./img/note.PNG"
-import me from "./img/me.jpg"
 import Navbar from './components/Navbar'
 import Contact from "./components/Contact"
 class App extends React.Component{
@@ -25,7 +24,7 @@ class App extends React.Component{
 <h3 className="header ml-3 mt-3 ml">Portfolio</h3>
                 <hr className="hr ml"/>
                 <div id="portfolio" className=" card-deck portfolio1">
-                  <div className="col-sm-6">
+                  <div className="col-sm-6 animated pulse infinite slower ">
                     <Portfolio 
                     title="Choose your job" 
                     prag="A website that describes IT JOBS well designed and well optimized "  
@@ -33,7 +32,7 @@ class App extends React.Component{
                     timeUpdated="19/06/2019"
                     link="https://bahachammakhi.github.io/chooseyourjob"
                     /></div>
-<div className="col-sm-6 ">
+<div className="col-sm-6  animated pulse infinite slower">
   <Portfolio 
 title="Portfolio website" 
 prag="A portfolio-website Portfolio section,about section , contact section , footer,welcome page and some nice animations" 
@@ -41,7 +40,7 @@ prag="A portfolio-website Portfolio section,about section , contact section , fo
  timeUpdated="19/06/2019"
  link="https://bahachammakhi.github.io/Portfolio"
  /></div>
- <div className="col-sm-6 card-center">
+ <div className="col-sm-6 card-center animated pulse infinite slower">
   <Portfolio 
 title="Note WEB application" 
 prag="A portfolio-website Portfolio section,about section , contact section , footer,welcome page and some nice animations" 

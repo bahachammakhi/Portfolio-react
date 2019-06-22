@@ -1,5 +1,4 @@
 import React,{Component} from "react"
-import {Collapse } from 'reactstrap';
 import me from '../img/me.jpg'; // Tell Webpack this JS file uses this image 
 class SideNav extends Component {
     

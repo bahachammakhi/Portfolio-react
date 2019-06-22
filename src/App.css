@@ -134,6 +134,13 @@ opacity:0.7;
   .w-600{
     width :50%;
   }
+  .header1{
+    color:rgb(255, 255, 255);
+    font-family: 'Leckerli One', cursive;
+  }
+  .navbar-baha{
+background-color: #4d0304;
+  }
 .content{
   margin-left: 0px;
   
