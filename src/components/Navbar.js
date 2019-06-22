@@ -5,7 +5,10 @@ class Navbar extends React.Component{
     super()
     this.state  ={
     prevScrollpos : window.pageYOffset,
-    visible : true
+    visible : true,
+    portfolio : "active",
+    about : "",
+    contact :"",
     }
    
   }
@@ -26,6 +29,10 @@ class Navbar extends React.Component{
       prevScrollpos : currentScrollPos,
       visible : visible
     })
+  if (prevScrollpos > 300) {this.setState({portfolio:"",about : "active",contact:""})}
+  else if (prevScrollpos < 300) {this.setState({about:"",contact:"",portfolio:"active"})}
+  if (prevScrollpos > 2400) {this.setState({about:"",contact:"active",portfolio:""})}
+
   }
   
   
@@ -41,13 +48,13 @@ class Navbar extends React.Component{
   </button>
  
     <ul className="navbar-nav">
-      <li className="nav-item active">
+      <li className={this.state.portfolio}>
         <a className="nav-link" href="#portfolio">PORTFOLIO <span className="sr-only">(current)</span></a>
       </li>
-      <li className="nav-item">
+      <li className={this.state.about}>
         <a className="nav-link" href="#about">ABOUT</a>
       </li>
-      <li className="nav-item">
+      <li className={this.state.contact}>
         <a className="nav-link" href="#contact">CONTACT</a>
       </li>
     </ul>

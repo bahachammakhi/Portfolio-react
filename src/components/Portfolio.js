@@ -22,18 +22,13 @@ class Portfolio extends Component{
         return(
             <div >
                 
-                <div className="card mt-3 ml-3 w-75 bg-ligth border-danger" >
+                <div className="card mt-3 ml-3 w-75 bg-dark border-danger" >
   <img className="card-img-top" src={this.props.img} alt="Card image cap" onClick={this.handleOpen} />
   
   
-  <div className="card-footer">
-      <div className="text-center" ><h6>Click on the image</h6></div>
-    
-      <hr/>
-      <small class="text-muted"> Updated on {this.props.timeUpdated}</small>
-    </div>
+  
 </div>
-<SimpleModal  link={this.props.link} prag={this.props.prag} title={this.props.title} open={this.state.open} handleClose={this.handleClose} />
+<SimpleModal updated={this.props.timeUpdated} link={this.props.link} prag={this.props.prag} title={this.props.title} open={this.state.open} handleClose={this.handleClose} />
 </div>
 
 

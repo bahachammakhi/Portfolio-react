@@ -36,7 +36,7 @@ render(){
               <hr className="bg-danger"/>
               <p>{this.props.prag}</p>
              
-             
+             <p>Updated on {this.props.updated}</p>
               <br/>
               <br/>
               <div className="text-center" >
