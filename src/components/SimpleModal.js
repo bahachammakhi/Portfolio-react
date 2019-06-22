@@ -41,7 +41,7 @@ render(){
         onClose={this.props.handleClose}
       >
         <Animated animationIn="slideInRight" animationOut="fadeOut" isVisible={true}>
-          <div className="p-3 mb-2 bg-dark text-white rounded mt-3 mr-5 w-600  float-right"  >
+          <div className="p-3 mb-2 bg-dark  border-top rounded border-danger text-white  mt-3 mr-5 w-600  float-right"  >
          
               <h1  className="text-center text1 ">{this.props.title}</h1>
               <hr className="bg-danger"/>
