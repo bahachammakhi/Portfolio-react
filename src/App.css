@@ -114,8 +114,12 @@ opacity:0.7;
 .logo{
   width:120px;
 }
-
-
+.w-600{
+  width: 25%;
+}
+.text1{
+  font-size: 2vw;
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-width: 800px) {
   .sidenav {padding-top: 15px;}
@@ -124,7 +128,12 @@ opacity:0.7;
     width : 18rem;
     height: 29rem;
   }
-  
+  .text1{
+    font-size: 4vw;
+  }
+  .w-600{
+    width :50%;
+  }
 .content{
   margin-left: 0px;
   

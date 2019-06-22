@@ -7,6 +7,7 @@ import "./App.css"
 import "./bootstrap-4.3.1-dist/css/bootstrap.min.css"
 import port from "./img/port1.PNG"
 import cyj from "./img/cyj1.PNG"
+import note from "./img/note.PNG"
 import me from "./img/me.jpg"
 import Navbar from './components/Navbar'
 import Contact from "./components/Contact"
@@ -30,7 +31,7 @@ class App extends React.Component{
                     prag="A website that describes IT JOBS well designed and well optimized "  
                     img={cyj}
                     timeUpdated="19/06/2019"
-                    link=""
+                    link="https://bahachammakhi.github.io/chooseyourjob"
                     /></div>
 <div className="col-sm-6 ">
   <Portfolio 
@@ -38,15 +39,15 @@ title="Portfolio website"
 prag="A portfolio-website Portfolio section,about section , contact section , footer,welcome page and some nice animations" 
  img={port}
  timeUpdated="19/06/2019"
- link=""
+ link="https://bahachammakhi.github.io/Portfolio"
  /></div>
  <div className="col-sm-6 card-center">
   <Portfolio 
 title="Note WEB application" 
 prag="A portfolio-website Portfolio section,about section , contact section , footer,welcome page and some nice animations" 
- img={me}
+ img={note}
  timeUpdated="19/06/2019"
- link=""
+ link="https://my-note-app-8edfd.firebaseapp.com/"
  /></div>
                 </div>
                 <div className="ml" id="about">

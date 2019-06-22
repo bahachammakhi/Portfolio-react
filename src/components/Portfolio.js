@@ -1,27 +1,44 @@
 import React,{Component} from "react"
-
+import SimpleModal from "./SimpleModal"
 class Portfolio extends Component{
-    constructor(props){
-        super(props)
-        
+    constructor(){
+        super()
+        this.state ={
+            open : false
+        }
+        this.handleClose = this.handleClose.bind(this)
     }
+    handleOpen = () => {
+        this.setState ({
+          open : true
+        })
+       }
+       handleClose(){
+        this.setState({
+          open : false
+        })
+      }
     render(){
         return(
             <div >
                 
-                <div className="card mt-3 ml-3 w-75 bg-ligth border-danger " >
-  <img className="card-img-top" src={this.props.img} alt="Card image cap"/>
-  <div className="card-body ">
-      <h5 className="card-title">{this.props.title}</h5>
-    <p className="card-text">{this.props.prag}</p>
-    <a href="#" class="btn btn-dark">Check it</a>
-  </div>
+                <div className="card mt-3 ml-3 w-75 bg-ligth border-danger" >
+  <img className="card-img-top" src={this.props.img} alt="Card image cap" onClick={this.handleOpen} />
   
-  <div class="card-footer">
+  
+  <div className="card-footer">
+      <div className="text-center" ><h6>Click on the image</h6></div>
+    
+      <hr/>
       <small class="text-muted"> Updated on {this.props.timeUpdated}</small>
     </div>
 </div>
-            </div>
+<SimpleModal  link={this.props.link} prag={this.props.prag} title={this.props.title} open={this.state.open} handleClose={this.handleClose} />
+</div>
+
+
+
+          
         )
     }
 }
