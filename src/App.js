@@ -10,18 +10,21 @@ import cyj from "./img/cyj1.PNG"
 import note from "./img/note.PNG"
 import Navbar from './components/Navbar'
 import Contact from "./components/Contact"
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 class App extends React.Component{
   
   
   render(){
     
     return(
-     <div className="wrapper">
+     <div className="wrapper  ">
        <div className="desktop-only" >  <SideNav /></div>
        <div className="mobile-only"><Navbar /></div>
-
-<div className="content animated  slideInLeft slower ">
-<h3 className="header ml-3 mt-3 ml">Portfolio</h3>
+       <div>
+   
+  </div>
+<div className="content animated  slideInLeft slower  bg1">
+<h3 className="header ml-3  ml">Portfolio</h3>
                 <hr className="hr ml"/>
                 <div id="portfolio" className=" card-deck portfolio1">
                   <div className="col-sm-6 animated pulse infinite slower ">
@@ -49,14 +52,15 @@ prag="A portfolio-website Portfolio section,about section , contact section , fo
  link="https://my-note-app-8edfd.firebaseapp.com/"
  /></div>
                 </div>
+                <hr/>
                 <div className="ml" id="about">
                   <AboutMe />
                 </div>
+                <hr className="hr ml" />
                 <div className="ml-5" id="contact">
                 <Contact />
                 </div>
-
-  <div className="mt-3"><Footer /> </div>         
+<div className="mt-3"><Footer /> </div>         
 </div>
 
      </div>

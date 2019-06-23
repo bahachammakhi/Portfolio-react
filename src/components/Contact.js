@@ -42,7 +42,7 @@ class Contact extends Component{
         
         return(
             <div className="row">
-                <div className="col-md-4  w-75 h-25 mb-2 cardform border border-danger rounded  ">
+                <div className="col-md-4  w-75 h-25 mb-2 cardform border bg-dark border-danger rounded  ">
                     <div className="card-body">
 <form action="https://formspree.io/bahachammakhi25@gmail.com" method="POST">
                 <div class="form-group ">

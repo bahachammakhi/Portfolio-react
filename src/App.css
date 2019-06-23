@@ -16,10 +16,10 @@
 .header{
 color: rgb(255, 255, 255);
 font-family: 'Leckerli One', cursive;
-color: #620506;
+color: #030303;
 }
 .headernav{
-  color :rgb(148, 1, 1);
+  color :rgb(7, 7, 7);
   font-family: 'Leckerli One', cursive;
 }
 .prog1{
@@ -42,7 +42,7 @@ p{
   color: rgb(107, 107, 107)
 }
 .meimg2{
-  opacity:0.6;
+  opacity:0.85;
   width: 320px;
 }
 
@@ -54,7 +54,7 @@ opacity:0.7;
 }
 .hr{
   height: 3px;
-  background-color: rgb(136, 136, 136)
+  background-color: rgb(150, 46, 46)
 }
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -63,7 +63,7 @@ opacity:0.7;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #15141A; /* Black */
+  background-color: rgb(136, 134, 134); /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -73,14 +73,15 @@ opacity:0.7;
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 15px;
-  color: #cacaca;
+  color: #0c0c0c;
   display: block;
 }
 .sidenav .ab:hover{
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  background-color: #0C0C0E;
+  background-color: rgb(119, 119, 121);
+  color: white;
   display: block;
   text-decoration: none;
 }
@@ -90,7 +91,7 @@ opacity:0.7;
 }
 .fab:hover{
   font-size: 50px;
-  color: white;
+  color: rgb(10, 10, 10);
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -111,6 +112,9 @@ opacity:0.7;
   display : none;
 
 }
+.bg1{
+  background-image: url("./img/bg1.jpg")
+}
 .logo{
   width:120px;
 }
@@ -122,9 +126,9 @@ opacity:0.7;
 }
 .active1{
   padding: 6px 6px 6px 4px;
-  text-decoration: none;
   font-size: 20px;
-  background-color: rgb(10, 10, 15);
+  background-color: rgb(119, 119, 119);
+  color: rgb(255, 255, 255));
   display: block;
   text-decoration: none;
 }
