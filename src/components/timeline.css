@@ -10,7 +10,7 @@
     position: absolute;
     content: " ";
     width: 3px;
-    background-color: #030303;
+    background-color: #1608ce;
     opacity: 0.2;
     left: 50%;
     margin-left: -1.5px;
@@ -44,8 +44,8 @@
   .timeline > li > .timeline-panel {
     width: 46%;
     float: left;
-    border: 1px solid #7B0100;
-    border-top : 5px solid #7B0100 ;
+    border: 1px solid rgb(27, 60, 150);
+    border-top : 5px solid rgb(25, 38, 158) ;
     border-radius: 2px;
     padding: 20px;
     position: relative;
@@ -59,8 +59,8 @@
     right: -26px;
     display: inline-block;
     border-top: 15px solid transparent;
-    border-left: 15px solid #620506;
-    border-right: 0 solid #620506;
+    border-left: 15px solid #1a3283;
+    border-right: 0 solid #1c3399;
     border-bottom: 15px solid transparent;
     content: " ";
   }
@@ -77,7 +77,7 @@
     top: 16px;
     left: 52.3%;
     margin-left: -25px;
-    background-color: #620506;
+    background-color: #252c8a;
     z-index: 100;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;

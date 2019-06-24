@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap');
 
 .content{
   margin-left: 300px;
@@ -13,10 +13,16 @@
   width : 18rem;
   height: 29rem;
 }
+.bg-blue{
+  background-color: #7880B5;
+}
 .header{
-color: rgb(255, 255, 255);
-font-family: 'Leckerli One', cursive;
+font-family: 'Cairo', sans-serif;
 color: #030303;
+font-weight: bolder
+}
+.header:hover{
+  color : rgb(38, 5, 185);
 }
 .headernav{
   color :rgb(7, 7, 7);
@@ -54,7 +60,7 @@ opacity:0.7;
 }
 .hr{
   height: 3px;
-  background-color: rgb(150, 46, 46)
+  background-color: rgb(46, 82, 150)
 }
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -63,7 +69,7 @@ opacity:0.7;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-image: linear-gradient(to bottom, rgb(141, 141, 141) , rgb(65, 96, 236));/* Black */
+  background-color: #0D3B66;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -112,9 +118,8 @@ opacity:0.7;
   display : none;
 
 }
-.bg1{
-  background-image: url("./img/bg2.jpg")
-}
+
+
 .logo{
   width:120px;
 }
@@ -140,19 +145,30 @@ opacity:0.7;
     width : 18rem;
     height: 50rem;
   }
+  .port{
+    margin-top: 70px ;
+  }
+  p{
+    color: black;
+  }
+  .bg1{
+    background-image: linear-gradient(to right, rgba(94, 96, 206, 0.753), rgb(67, 5, 236));
+  }
   .text1{
     font-size: 4vw;
   }
   .w-600{
     width :50%;
   }
-
+.bg-blue{
+  background-color: #0D3B66;
+}
   .header1{
     color:rgb(255, 255, 255);
     font-family: 'Leckerli One', cursive;
   }
   .navbar-baha{
-background-color: #7880B5;
+background-color: #0D3B66;
   }
 .content{
   margin-left: 0px;

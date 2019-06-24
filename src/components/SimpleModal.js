@@ -30,17 +30,17 @@ render(){
         onClose={this.props.handleClose}
       >
         <Animated animationIn="slideInRight" animationOut="fadeOut" isVisible={true}>
-          <div className="p-3 mb-2 bg-white  border-top rounded border-danger text-white  mt-3 mr-5 w-600  float-right"  >
+          <div className="p-3 mb-2 bg-white  border-top rounded border-info text-white  mt-3 mr-5 w-600  float-right"  >
          
-              <h1  className="text-center text-dark text1 ">{this.props.title}</h1>
-              <hr className="bg-danger"/>
-              <p>{this.props.prag}</p>
+              <h1  className="text-center text-info text1 ">{this.props.title}</h1>
+              <hr className="bg-info"/>
+              <p className="text-dark" >{this.props.prag}</p>
              
              <p>Updated on {this.props.updated}</p>
               <br/>
               <br/>
               <div className="text-center" >
-                <a  href={this.props.link} target="_blank" className="btn btn-outline-danger"   >Live Preview</a>
+                <a  href={this.props.link} target="_blank" className="btn btn-outline-info"   >Live Preview</a>
               </div>
    </div>
         </Animated>  

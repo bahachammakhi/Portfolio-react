@@ -42,7 +42,7 @@ class Contact extends Component{
         
         return(
             <div className="row">
-                <div className="col-md-4  w-75 h-25 mb-2 cardform border bg-dark border-danger rounded  ">
+                <div className="col-md-4  w-75 h-25 mb-2 cardform border bg-dark border-info rounded  ">
                     <div className="card-body">
 <form action="https://formspree.io/bahachammakhi25@gmail.com" method="POST">
                 <div class="form-group ">
@@ -60,7 +60,7 @@ class Contact extends Component{
   <div class="form-group">
     <label for="exampleFormControlTextarea1 "  className="text-white">Message</label>
     <textarea class="form-control " id="exampleFormControlTextarea1" name="message" rows="3"></textarea>
-  </div> <div className="text-center  "><input type="submit" value="Send" className="btn btn-outline-danger btn-lg " /></div>
+  </div> <div className="text-center  "><input type="submit" value="Send" className="btn btn-outline-info btn-lg " /></div>
                 
 </form>
 

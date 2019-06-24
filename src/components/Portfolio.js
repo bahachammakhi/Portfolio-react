@@ -22,7 +22,7 @@ class Portfolio extends Component{
         return(
             <div >
                 
-                <div className="card mt-3 ml-3 w-75 bg-dark border-danger" >
+                <div className="card mt-3 ml-3 w-75 bg-dark border-info" >
   <img className="card-img-top" src={this.props.img} alt="Card image cap" onClick={this.handleOpen} />
   
   
