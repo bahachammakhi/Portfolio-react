@@ -63,7 +63,7 @@ opacity:0.7;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: rgb(136, 134, 134); /* Black */
+  background-image: linear-gradient(to bottom, rgb(141, 141, 141) , rgb(65, 96, 236));/* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -113,7 +113,7 @@ opacity:0.7;
 
 }
 .bg1{
-  background-image: url("./img/bg1.jpg")
+  background-image: url("./img/bg2.jpg")
 }
 .logo{
   width:120px;
@@ -152,7 +152,7 @@ opacity:0.7;
     font-family: 'Leckerli One', cursive;
   }
   .navbar-baha{
-background-color: #4d0304;
+background-color: #7880B5;
   }
 .content{
   margin-left: 0px;

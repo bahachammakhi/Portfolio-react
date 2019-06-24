@@ -22,7 +22,7 @@ class AboutMe extends Component{
             <div class="progress ml-3 mr-3">
   <div className="progress-bar progress-bar-striped prog2 progress-bar-animated bg-danger " role="progressbar "  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
 </div>
-<hr/>
+
 <div className="mt-3 mb-3 text-center bg-ligth animated flash infinite slower "> <img className="ml-3 mb-5" src={reacticon}/><img className="ml-3 mb-5" src="https://img.icons8.com/color/48/000000/bootstrap.png"/> <img className="mb-5 ml-3" src="https://img.icons8.com/color/48/000000/git.png"/> <img className="mb-5 ml-3" src="https://img.icons8.com/color/48/000000/firebase.png"/></div>
 <hr/>
 <div><TimeLine /></div>
