@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.82b063c2.chunk.css",
-    "main.js": "/Portfolio-react/static/js/main.56ccf66d.chunk.js",
-    "main.js.map": "/Portfolio-react/static/js/main.56ccf66d.chunk.js.map",
-    "runtime~main.js": "/Portfolio-react/static/js/runtime~main.3837020e.js",
-    "runtime~main.js.map": "/Portfolio-react/static/js/runtime~main.3837020e.js.map",
-    "static/js/2.2f1072a3.chunk.js": "/Portfolio-react/static/js/2.2f1072a3.chunk.js",
-    "static/js/2.2f1072a3.chunk.js.map": "/Portfolio-react/static/js/2.2f1072a3.chunk.js.map",
-    "index.html": "/Portfolio-react/index.html",
-    "precache-manifest.1c89b89ef3e36fada7ed6f9c2ab0c729.js": "/Portfolio-react/precache-manifest.1c89b89ef3e36fada7ed6f9c2ab0c729.js",
-    "service-worker.js": "/Portfolio-react/service-worker.js",
-    "static/css/main.82b063c2.chunk.css.map": "/Portfolio-react/static/css/main.82b063c2.chunk.css.map",
-    "static/media/cyj1.PNG": "/Portfolio-react/static/media/cyj1.154207a8.PNG",
-    "static/media/me.jpg": "/Portfolio-react/static/media/me.7a38e925.jpg",
-    "static/media/me2.jpg": "/Portfolio-react/static/media/me2.c9c92537.jpg",
-    "static/media/note.PNG": "/Portfolio-react/static/media/note.cfb98e97.PNG",
-    "static/media/port1.PNG": "/Portfolio-react/static/media/port1.6068814f.PNG"
+    "main.css": "/static/css/main.82b063c2.chunk.css",
+    "main.js": "/static/js/main.da4c4b3f.chunk.js",
+    "main.js.map": "/static/js/main.da4c4b3f.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.2f1072a3.chunk.js": "/static/js/2.2f1072a3.chunk.js",
+    "static/js/2.2f1072a3.chunk.js.map": "/static/js/2.2f1072a3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1307b1fa2e254502282638185b6d5138.js": "/precache-manifest.1307b1fa2e254502282638185b6d5138.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.82b063c2.chunk.css.map": "/static/css/main.82b063c2.chunk.css.map",
+    "static/media/cyj1.PNG": "/static/media/cyj1.154207a8.PNG",
+    "static/media/me.jpg": "/static/media/me.7a38e925.jpg",
+    "static/media/me2.jpg": "/static/media/me2.c9c92537.jpg",
+    "static/media/note.PNG": "/static/media/note.cfb98e97.PNG",
+    "static/media/port1.PNG": "/static/media/port1.6068814f.PNG"
   }
 }
