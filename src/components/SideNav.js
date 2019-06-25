@@ -1,5 +1,6 @@
 import React,{Component} from "react"
 import me from '../img/me.jpg'; // Tell Webpack this JS file uses this image 
+import logo from '../img/logo1.png'
 class SideNav extends Component {
     constructor() {
       super()
@@ -43,7 +44,9 @@ class SideNav extends Component {
               
               <div class="sidenav">
                  <img src={me} alt="me" className="me rounded"/> 
-                 <h4 className=" ml-3 mt-3  headernav">Baha Chammakhi</h4>
+                 <div className="row" >
+               <img  className="logo ml-3" src={logo} />  <h4 className=" ml-3 mt-3  headernav">Baha Chammakhi</h4> </div>
+                  
                 <ul className="list-unstyled">
                     <li className={this.state.portfolio}><a className=" ab font-weight-light" href='#portfolio'><i class="fas fa-briefcase fa-xs mr-3"></i>PORTFOLIO</a></li>
                     <li className={this.state.about}> <a className=" ab font-weight-light" href='#about'><i class="fas fa-user-alt fa-xs mr-3"></i>ABOUT</a></li>

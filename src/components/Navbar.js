@@ -1,5 +1,6 @@
 import React from "react"
 import {Collapse} from "reactstrap"
+import logo from '../img/logo1.png'
 class Navbar extends React.Component{
   constructor(){
     super()
@@ -42,7 +43,7 @@ class Navbar extends React.Component{
    <div>
      <Collapse isOpen={this.state.visible} >
      <nav className="navbar navbar-expand navbar-dark navbar-baha fixed-top ">
- <h6 className=" header1 mt-3">Baha chammakhi</h6>
+<img src={logo}  className="logo" />
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
